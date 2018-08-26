@@ -9,6 +9,12 @@
     padding-right: 35px;
     text-align: right;
     width: 140px;
+
+    padding-top: 8px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .menu-opcoes ul {
@@ -19,9 +25,28 @@
     color: #003366;
 }
 
+.menu-opcoes ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.menu-opcoes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
 /* atribuicao a tags*/
 
 body {
     color: #333333;
     font-family: "Lucida Sans Console" , "Lucida Grande", sans-serif;
+}
+
+header {
+  position: relative;
 }

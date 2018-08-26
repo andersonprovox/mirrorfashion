@@ -1,9 +1,6 @@
 body {
     color: #333333;
-    font-family: "lucida Sans Unicode", "Lucida Grande", sans-serif; 
-}
-
-body {
+    font-family: "lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 940px;
@@ -11,17 +8,11 @@ body {
 
 h1 {
     background-image: url(../img/sobre-background.jpg);
-}
-
-h1 {
     padding: 10px;
 }
 
 h2 {
     border-bottom: 2px solid #333333;
-}
-
-h2 {
     margin-top: 30px;
 }
 
@@ -34,19 +25,18 @@ figure {
     background-color: #F2EDED;
     border: #ccc;
     text-align: center;
-}
 
-figure {
     padding: 15px;
     margin: 30px;
 }
 
 figcaption {
     font-style: italic;
+    margin-top: 10px;
 }
 
-figcaption {
-    margin-top: 10px;
+header {
+  position: relative;
 }
 
 #centro-distribuicao {
@@ -70,4 +60,9 @@ figcaption {
     margin-right: 30px;
     vertical-align: middle;
     width: 94px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
 }
